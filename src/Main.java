@@ -1,6 +1,3 @@
-import javax.sound.midi.Soundbank;
-import java.sql.SQLOutput;
-
 public class Main {
 
 
@@ -58,13 +55,13 @@ public class Main {
         System.out.println( car.whatMaxSpeedWas(30));
         System.out.println("Current speed is: " + car.getCurrentSpeed());
 
-        car.accelerate();
+        car.accelerate1();
         System.out.println(car.getCurrentSpeed());
-        car.accelerate();
+        car.accelerate1();
         System.out.println(car.getCurrentSpeed());
-        car.accelerate();
+        car.accelerate1();
         System.out.println(car.getCurrentSpeed());
-        car.accelerate();
+        car.accelerate1();
 
 
 
