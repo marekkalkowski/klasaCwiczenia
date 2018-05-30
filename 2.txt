@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 nowy plik na master 
+=======
+ciekawe jak konflikt sie roziwąże
+>>>>>>> 90a1099e08b81edd09cf83689a4989db66d277dc
