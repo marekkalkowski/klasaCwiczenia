@@ -1,10 +1,6 @@
 public class Main {
 
-
-
-
-
-    public static void main(String[] args) {
+   public static void main(String[] args) {
       /*  System.out.println("Infoshre");
 
         System.out.print("Hello World");
@@ -24,20 +20,22 @@ public class Main {
         sum = x + y;
 
         System.out.println(x+y);
-
+        System.out.println("-----------");
         Menu myMenu = new Menu();
-        System.out.println(myMenu.number);
+        System.out.println(myMenu.getNumber());
         System.out.println(myMenu.text);
+        myMenu.setNumber(1234);
+       System.out.println(myMenu.getNumber());
 
 
 
         Menu mySecondMenu = new Menu(9);
-        System.out.println(mySecondMenu.number);
+        System.out.println(mySecondMenu.getNumber());
         System.out.println(mySecondMenu.text);
 
 
         Menu myOtherMenu = new Menu ("ja");
-        System.out.println(myMenu.number + " " + myMenu.text);
+        System.out.println(myMenu.getNumber() + " " + myMenu.text);
         System.out.println(myOtherMenu.text);
 
         Car car = new Car();
@@ -47,7 +45,7 @@ public class Main {
 
         Menu newMenu = new Menu (9, "tekst" );
         System.out.println("----------");
-        System.out.println(newMenu.number);
+        System.out.println(newMenu.getNumber());
         System.out.println(newMenu.text);
 
         car.startEngine();
@@ -62,6 +60,7 @@ public class Main {
         car.accelerate1();
         System.out.println(car.getCurrentSpeed());
         car.accelerate1();
+
 
 
 

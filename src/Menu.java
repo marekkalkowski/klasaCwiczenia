@@ -1,12 +1,12 @@
 public class Menu {
 
-    int number;
-    String text;
+   private int number;
+    public String text;
 
 
     public Menu() {
-        //number = 1;
-        //text = "some text";
+        number = 1;
+        text = "some text";
     }
 
     public Menu(int number) {
@@ -27,4 +27,8 @@ public class Menu {
         this.text = text;
 
     }
+
+    public void setNumber( int number){this.number = number;}
+
+    public int getNumber (){return number;}
 }
